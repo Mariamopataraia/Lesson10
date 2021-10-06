@@ -22,20 +22,20 @@
 	width: 443px;
 	height: 125px;
 	padding: 30px 74px 30px 30px;
-	top: 285px;
+	/* top: 285px;
 	right: 10px;
 	left: 10px;
-	bottom: 10px;
+	bottom: 10px; */
 }
 .textbold {
 	position: absolute;
 	padding: 28px 67px 29px 30px;
-	top: 285px;
+	/* top: 285px;
 	right: 10px;
 	left: 10px;
 	bottom: 10px;
 	width: 443px;
-    height: 125px;
+    height: 125px; */
 	border-radius: 12px;
 }
 header h1, .textbold {
