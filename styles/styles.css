@@ -41,3 +41,57 @@
 header h1, .textbold {
 	font-family: 'Bold';
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #0A22F4
+}
+
+form {
+    background-color: #0A22F4;
+}
+
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    width: 463px;
+    font-family: "Bold";
+}
+
+iframe {
+	border-radius: 15px;
+	width: 463px;
+	height: 197px;
+}
+
+.contact-info {
+	background-color: white;
+	border-radius: 50px;
+	display: inline-block;
+	margin:  0 auto;
+    font-family: "Bold";    
+}
