@@ -68,7 +68,8 @@ header h1, .textbold {
 
 
 .footer{
-    background-color: #0A22F4
+    background-color: #0A22F4;
+    display: inline-block;
 }
 
 form {
