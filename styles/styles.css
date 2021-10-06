@@ -68,11 +68,23 @@ header h1, .textbold {
 
 .footer{
     background-color: #0A22F4;
+    color: white;
+}
+
+.contact {
+    max-width: 463px;
+	width: 100%;
     display: inline-block;
+}
+h2{
+    font-family: 'Bold';
+}
+p {
+    font-family: 'Regular';
 }
 
 form {
-    background-color: #0A22F4;
+
 }
 
 .reg-form {
@@ -83,7 +95,6 @@ form {
 }
 
 iframe {
-	border-radius: 15px;
 	width: 463px;
 	height: 197px;
 }
