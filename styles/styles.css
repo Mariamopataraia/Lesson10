@@ -38,6 +38,6 @@
     height: 125px;
 	border-radius: 12px;
 }
-header h1 .textbold {
+header h1, .textbold {
 	font-family: 'Bold';
 }
