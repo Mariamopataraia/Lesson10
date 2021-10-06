@@ -3,3 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+.images {
+	display: flex;
+	position: relative;
+	left: 240px;
+}
+.block-1, .block-2, .block-3, .block-4 {
+	width: 463px;
+	height: 420px;
+	display: flex;
+	margin-right: 25px;
+}
+.imagetext {
+	font-family: 'FreeSans';
+	position: absolute;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 12px;
+	width: 443px;
+	height: 125px;
+	padding: 30px 74px 30px 30px;
+	top: 285px;
+	right: 10px;
+	left: 10px;
+	bottom: 10px;
+}
+.textbold {
+	top: 285px;
+	right: 10px;
+	position: absolute;
+	padding: 28px 67px 29px 30px;
+	top: 285px;
+	right: 10px;
+	left: 10px;
+	bottom: 10px;
+}
