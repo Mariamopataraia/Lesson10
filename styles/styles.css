@@ -88,34 +88,41 @@ h2{
 p {
     font-family: 'Regular';
 }
-
 .reg-form {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     width: 463px;
     font-family: "Bold";
     /* border: none; */
 }
-
 iframe {
 	width: 463px;
 	height: 197px;
 }
 
-.contact-info tel, email {
-	background-color: white;
-	display: inline-block;
+.contact-info {
+    display: flex;
 	margin:  0 auto;
-    font-family: "Bold";    
+    font-family: "Bold";  
 }
 
+.contact-info tel box, email box{
+	background-color: white;
+	display: flex;
+	margin:  0 auto;
+    font-family: "Bold";  
+}
+.contact-info span {
+    display: inline-block;
+}
 .tel img {
-    border-radius: 70px;
+    border: 70px;
+    padding: 20px;
     background-color: white;
 }
-
 .email img {
-    border-radius: 70px;
+    border: 70px;
+    padding: 20px;
     background-color: white;
 }
 
@@ -162,3 +169,4 @@ iframe {
 .partnernav li{
 		margin: 20px;
 }
+
