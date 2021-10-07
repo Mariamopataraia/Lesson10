@@ -10,7 +10,6 @@
     height: 308px;
     max-width: 1950px;
     width: 100%;
-	/* position: relative; */
 }
 .container{
     display: flex;
@@ -30,7 +29,6 @@
 /* MIDDLE SECTION */
 .images {
 	display: flex;
-	/* position: absolute; */
     max-width: 1200px;
     width: 100%;
 }
@@ -65,8 +63,6 @@
 	bottom: 10px;
 	width: 443px;
 	background-color: rgba(255, 255, 255, 1);
-    /* left: 10px; */
-	/* right: -80px; */
 }
 p .textbold {
 	font-family: 'Bold';
@@ -76,7 +72,6 @@ p .textbold {
     background-color: #0A22F4;
     color: white;
 }
-
 .contact {
     max-width: 463px;
 	width: 100%;
@@ -99,13 +94,11 @@ iframe {
 	width: 463px;
 	height: 197px;
 }
-
 .contact-info {
     display: flex;
 	margin:  0 auto;
     font-family: "Bold";  
 }
-
 .contact-info tel box, email box{
 	background-color: white;
 	display: flex;
