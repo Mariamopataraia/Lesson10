@@ -84,6 +84,7 @@ p {
     font-family: 'Regular';
 }
 iframe {
+	display: flex;
 	width: 463px;
 	height: 197px;
 }
@@ -147,9 +148,16 @@ iframe {
 		margin: 20px;
 }
 
+
+.reg-form-box {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+}
+
 .reg-form input, textarea{
-    display: flex;
-    flex-direction: column; 
+	display: flex;
+	flex-direction: column; 
     width: 463px;
     font-family: "Bold";
     border: none;
@@ -158,7 +166,10 @@ iframe {
 	margin-top: 41px;
 }
 
-.reg-form
+.reg-form label {
+	font-family: 'Bold';
+	font-size: 16px;
+}
 
 .reg-form input:focus {
 	outline: none
