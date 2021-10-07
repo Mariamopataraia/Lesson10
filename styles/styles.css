@@ -90,18 +90,19 @@ iframe {
 }
 .contact-info {
     display: flex;
-	margin:  0 auto;
-    font-family: "Bold";  
+	align-items: center;
+    font-family: "Bold";
 }
 .contact-info tel box, email box{
 	background-color: white;
 	display: flex;
-	margin:  0 auto;
-    font-family: "Bold";  
+    font-family: "Bold";
+	align-items: center;
 }
 .contact-info span {
     display: inline-block;
 }
+
 .tel img {
     border: 70px;
     padding: 20px;
@@ -147,14 +148,11 @@ iframe {
 .partnernav li{
 		margin: 20px;
 }
-
-
 .reg-form-box {
 	display: flex;
 	flex-direction: column;
 	width: 500px;
 }
-
 .reg-form input, textarea{
 	display: flex;
 	flex-direction: column; 
@@ -165,12 +163,10 @@ iframe {
 	border-bottom: 2px solid gray;
 	margin-top: 41px;
 }
-
 .reg-form label {
 	font-family: 'Bold';
 	font-size: 16px;
 }
-
 .reg-form input:focus {
 	outline: none
 }
