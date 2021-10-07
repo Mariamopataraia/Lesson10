@@ -126,3 +126,16 @@ iframe {
 
 
 /* TAKO */
+
+.other {
+	font-family: 'Bold';
+	display: flex;
+	justify-content: end;
+}
+.other p {
+	border-inline-start: solid; 
+	writing-mode: horizontal-tb;
+	border-color: #171717;
+	padding-left: 21px;
+	border-radius: 2px;
+}
