@@ -104,8 +104,27 @@ iframe {
 
 .contact-info {
 	background-color: white;
-	border-radius: 50px;
 	display: inline-block;
 	margin:  0 auto;
     font-family: "Bold";    
+}
+
+.tel img{
+    border-radius: 50px;
+
+}
+
+.email img {
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+.other {
+    font-family: "Bold";  
 }
