@@ -102,20 +102,21 @@ iframe {
 	height: 197px;
 }
 
-.contact-info {
+.contact-info tel, email {
 	background-color: white;
 	display: inline-block;
 	margin:  0 auto;
     font-family: "Bold";    
 }
 
-.tel img{
-    border-radius: 50px;
-
+.tel img {
+    border-radius: 70px;
+    background-color: white;
 }
 
 .email img {
-    border-radius: 50px;
+    border-radius: 70px;
+    background-color: white;
 }
 
 
