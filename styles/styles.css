@@ -29,7 +29,7 @@
 /* MIDDLE SECTION */
 .images {
 	display: flex;
-	position: relative;
+	/* position: relative; */
     max-width: 1200px;
     width: 100%;
 }
@@ -38,28 +38,33 @@
 	height: 420px;
 	display: flex;
 	margin-right: 25px;
+	position: relative
 }
 .imagetext {
 	font-family: 'Regular';
 	position: absolute;
 	background-color: rgba(255, 255, 255, 1);
-	border-radius: 12px;
 	width: 443px;
 	height: 125px;
 	padding: 30px 74px 30px 30px;
 	top: 285px;
+	right: 10px;
+	left: 10px;
 	bottom: 10px;
+	bottom: 10px;
+	justify-content: center;
+	display: flex;
 }
 .textbold {
 	position: absolute;
 	padding: 28px 67px 29px 30px;
-	border-radius: 12px;
 	top: 285px;
+	right: 10px;
+	left: 10px;
 	bottom: 10px;
 	width: 443px;
 	background-color: rgba(255, 255, 255, 1);
-    border-radius: 12px;
-	/* left: 10px; */
+    /* left: 10px; */
 	/* right: -80px; */
 }
 p .textbold {
