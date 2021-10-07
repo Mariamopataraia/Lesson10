@@ -83,13 +83,6 @@ h2{
 p {
     font-family: 'Regular';
 }
-.reg-form {
-    display: flex;
-    flex-direction: column; 
-    width: 463px;
-    font-family: "Bold";
-    /* border: none; */
-}
 iframe {
 	width: 463px;
 	height: 197px;
@@ -154,3 +147,19 @@ iframe {
 		margin: 20px;
 }
 
+.reg-form input, textarea{
+    display: flex;
+    flex-direction: column; 
+    width: 463px;
+    font-family: "Bold";
+    border: none;
+	background: none;
+	border-bottom: 2px solid gray;
+	margin-top: 41px;
+}
+
+.reg-form
+
+.reg-form input:focus {
+	outline: none
+}
