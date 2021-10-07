@@ -10,6 +10,7 @@
     height: 308px;
     max-width: 1950px;
     width: 100%;
+	/* position: relative; */
 }
 .container{
     display: flex;
@@ -29,7 +30,7 @@
 /* MIDDLE SECTION */
 .images {
 	display: flex;
-	/* position: relative; */
+	/* position: absolute; */
     max-width: 1200px;
     width: 100%;
 }
@@ -38,7 +39,7 @@
 	height: 420px;
 	display: flex;
 	margin-right: 25px;
-	position: relative
+	position: relative;
 }
 .imagetext {
 	font-family: 'Regular';
